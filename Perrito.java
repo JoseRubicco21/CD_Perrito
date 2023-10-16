@@ -29,6 +29,7 @@ public class Perrito {
 		return chip;
 	}
 	public void setChip(boolean chip) {
+		// validates if the chip exist or sets the num chip to 0
 		if(isChip()) {
 			this.chip = chip;
 		} else {
