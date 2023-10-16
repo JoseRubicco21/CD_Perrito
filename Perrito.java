@@ -29,8 +29,14 @@ public class Perrito {
 		return chip;
 	}
 	public void setChip(boolean chip) {
-		this.chip = chip;
+		if(isChip()) {
+			this.chip = chip;
+		} else {
+			this.chip = chip;
+			setNumChip(0);
+		}
 	}
+
 	public int getNumChip() {
 		return numChip;
 	}

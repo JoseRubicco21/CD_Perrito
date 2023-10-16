@@ -5,6 +5,7 @@ public class Test_Perrito {
         Perrito perrito1 = new Perrito();
         Perrito perrito2 = new Perrito();
         Perrito perrito3 = new Perrito();
+        Perrito perrito4 = new Perrito();
 
         perrito1.setNombre("Fido");
         perrito1.setColor("Blanco");
@@ -35,6 +36,12 @@ public class Test_Perrito {
         System.out.println(perrito2.toString());
         System.out.println(perrito3.toString());
 
+        perrito4.setNombre("Fido");
+        perrito4.setColor("Blanco");
+        perrito4.setRaza("Galgo");
+        perrito4.setChip(false);
+
+        System.out.println(perrito4.toString());
 
 	}
 
